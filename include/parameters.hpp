@@ -25,19 +25,19 @@
 #define WHEELSPEED_TOOTH_COUNT 18
 #define RPM_TIMEOUT 500 // Timeout for wheel speed RPM to reset to 0
 #define MIN_BRAKE_PEDAL 400           // ~0.5v, set on 2-29-2024
-#define START_BRAKE_PEDAL 1300        // 1.58V, set on 2-29-2024
-#define BRAKE_ACTIVE 2293             // Threshold for brake pedal active (set to be doable by hand)
-#define END_BRAKE_PEDAL 3358          // ~4.1V, approximately maxed out brake pedal, set on 2-29-2024
+#define START_BRAKE_PEDAL 970       // 1.58V, set on 2-29-2024
+#define BRAKE_ACTIVE 3169            // Threshold for brake pedal active (set to be doable by hand)
+#define END_BRAKE_PEDAL 3598          // ~4.1V, approximately maxed out brake pedal, set on 2-29-2024
 #define MAX_BRAKE_PEDAL 3850
 
-#define MIN_ACCELERATOR_PEDAL_1 0    // Low accelerator implausibility threshold
-#define START_ACCELERATOR_PEDAL_1 50  // Position to start acceleration
-#define END_ACCELERATOR_PEDAL_1 1600    // Position to max out acceleration
-#define MAX_ACCELERATOR_PEDAL_1 2000    // High accelerator implausibility threshold
+#define MIN_ACCELERATOR_PEDAL_1 50    // Low accelerator implausibility threshold
+#define START_ACCELERATOR_PEDAL_1 542  // Position to start acceleration
+#define END_ACCELERATOR_PEDAL_1 3565   // Position to max out acceleration
+#define MAX_ACCELERATOR_PEDAL_1 4000    // High accelerator implausibility threshold
 
-#define MIN_ACCELERATOR_PEDAL_2 0   // Low accelerator implausibility threshold
-#define START_ACCELERATOR_PEDAL_2 50  // Position to start acceleration
-#define END_ACCELERATOR_PEDAL_2 2550    // Position to max out acceleration
+#define MIN_ACCELERATOR_PEDAL_2 80   // Low accelerator implausibility threshold
+#define START_ACCELERATOR_PEDAL_2 386  // Position to start acceleration
+#define END_ACCELERATOR_PEDAL_2 2565    // Position to max out acceleration
 #define MAX_ACCELERATOR_PEDAL_2 3000    // High accelerator implausibility threshold
 
 #define APPS_ALLOWABLE_TRAVEL_DEVIATION 50 // % allowable deviation of APPS1 and APPS2 travel readings
