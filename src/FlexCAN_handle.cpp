@@ -8,7 +8,7 @@ void InitCAN()
 {
     // Daqcan only needs to send, but fast
     DaqCAN_.begin();
-    DaqCAN_.setBaudRate(500000);
+    DaqCAN_.setBaudRate(1000000);
     DaqCAN_.setMaxMB(NUM_TX_MAILBOXES + NUM_RX_MAILBOXES);
     for (int i = 0; i < (NUM_RX_MAILBOXES - 1); i++)
     {
